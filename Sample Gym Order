@@ -1,0 +1,17 @@
+CREATE TABLE items (id INTEGER PRIMARY KEY, Name TEXT, NumberOrdered INTEGER, Weight INTEGER, Color TEXT, Company TEXT);
+INSERT INTO items VALUES (1, "Dumbbells", "6", "25", "Blue", "Rogue");
+INSERT INTO items VALUES (2, "Dumbbells", "4", "20", "Blue", "EliteFTS");
+INSERT INTO items VALUES (3, "Dumbbells", "2", "15", "Blue", "York");
+INSERT INTO items VALUES (4, "Dumbbells", "2", "5", "Blue", "TexasBarbell");
+INSERT INTO items VALUES (5, "Barbells", "3", "45", "Black", "Rogue");
+INSERT INTO items VALUES (6, "Barbells", "2", "25", "Black", "EliteFTS");
+INSERT INTO items VALUES (7, "Barbells", "2", "25", "Black", "York");
+INSERT INTO items VALUES (8, "Barbells", "5", "45", "Black", "TexasBarbell");
+INSERT INTO items VALUES (9, "Kettlebells", "3", "25", "Black", "Rogue");
+INSERT INTO items VALUES (10, "Kettlebells", "2", "25", "Red", "Rogue");
+INSERT INTO items VALUES (11, "Kettlebells", "2", "35", "Black", "EliteFTS");
+INSERT INTO items VALUES (12, "Kettlebells", "5", "35", "Red", "EliteFTS");
+INSERT INTO items VALUES (13, "Kettlebells", "2", "15", "Black", "York");
+INSERT INTO items VALUES (14, "Kettlebells", "5", "15", "Red", "York");
+INSERT INTO items VALUES (15, "Kettlebells", "2", "10", "Black", "TexasBarbell");
+INSERT INTO items VALUES (16, "Kettlebells", "5", "10", "Red", "TexasBarbell");
